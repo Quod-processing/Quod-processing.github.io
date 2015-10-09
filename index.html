@@ -1,11 +1,85 @@
 <!DOCTYPE html>
 <html>
-  	<head>
-        <title>Quod-Processing(Test)</title>
-  		<script src="processing.min.js"></script>
-	</head>
-	<body> 
-        <h1> circle.pde </h1>
-		<canvas data-processing-sources="circle.pde"></canvas></canvas>
-	</body>
+<head>
+<meta charset="UTF-8">
+<title>Quod-Processing</title>
+<script src="processing.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<!-- Facebook Likes, Shares Plugin -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">박승원</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Quod</a></li>
+            <li><a href="comments.html">Comments</a></li>
+            <li><a href="https://github.com/Quod-processing" target="_blank">View on Github</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+<!-- template !-->
+
+<div class="fb-like" data-href="http://quod-processing.github.io" data-width="300" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+    
+<h1> circle.pde </h1>
+<canvas data-processing-sources="circle.pde"></canvas></canvas>
+
+
+ <img src="images\gravlens.jpg" alt="gravlens" class="img-thumbnail">
+<p> ⓒseungwonpark 2015. Powered by GitHub, Bootstrap CSS
+<a href="licenses.txt">jQuery, bootstrap, bootflat Opensource License Information</a>
+    
+<a href="#" data-toggle="tooltip" data-placement="top" title="mileu32,seungwonpark">만든 사람</a>
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
 </html>
